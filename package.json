@@ -1,0 +1,26 @@
+{
+  "name": "thatpixigame",
+  "version": "0.0.1",
+  "description": "a pixijs game",
+  "main": "index.js",
+  "author": "benchiu <benchiu@yandex.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --inline",
+    "build": "NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "pixi.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "typescript": "^4.2.3",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1",
+    "webpackbar": "^5.0.0-3"
+  }
+}
